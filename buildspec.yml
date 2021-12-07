@@ -17,7 +17,7 @@ phases:
       - echo building ...
       - node --version
       - node index.js > index.out.log 2> index.err.log < /dev/null & 
-      - echo ismaellll
+      - echo ismaelll
 
 artifacts:
   files:
