@@ -16,7 +16,6 @@ phases:
     commands:
       - echo building ...
       - node index.js > index.out.log 2> index.err.log < /dev/null & 
-      - npm run build
 
 artifacts:
   files:
