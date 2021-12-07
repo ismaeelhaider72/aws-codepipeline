@@ -15,12 +15,12 @@ phases:
   build:
     commands:
       - echo building ...
-      - echo ismaeellllllll
       - node --version
-      - node index.js  
+      - node index.js
+      - echo ismaellll
 
 artifacts:
   files:
     - "**/*"
-
-
+  discard-paths: no
+  base-directory: build
